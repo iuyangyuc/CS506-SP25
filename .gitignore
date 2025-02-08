@@ -1,0 +1,14 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+venv/
+.env/
+tmp/
+data/
+idea/
+.idea/
+*.iml
+*.sqlite3
+*.db
+__pycache__/
+

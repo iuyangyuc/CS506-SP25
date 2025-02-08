@@ -8,12 +8,12 @@ The project aims to conduct a thorough analysis of the Boston Police Department 
 
 
 1. Analyze how the BPD budget has changed in 2011-2023, and identify trends in funding growth or shrinkage across departments.
-2. Analyze patterns in overtime pay, comparing it to regular pay and against non-BPD city employees.
-3. Use previous overtime data in 2011-2023 to predict overtime pay for the upcoming year, and compare it to the allocated budget.
-4. Determine how much of BPD’s total payroll comes from injury pay and the percentage of officers receiving it annually.
-5. Track annual financial trends of overtime hours paid compared to overtime hours worked and any discrimination in that trend.
+1. Analyze patterns in overtime pay, comparing it to regular pay and against non-BPD city employees.
+1. Use previous overtime data in 2011-2023 to predict overtime pay for the upcoming year, and compare it to the allocated budget.
+1. Determine how much of BPD’s total payroll comes from injury pay and the percentage of officers receiving it annually.
+1. Track annual financial trends of overtime hours paid compared to overtime hours worked and any discrimination in that trend.
 6. Determine whether specific demographics (e.g., senior, male, high-ranking, long-tenured officers) are more likely to have lower worked-to-paid overtime ratios.
-7. Analyze the distribution of overtime worked versus paid ratios and identify outliers.
+   Analyze the distribution of overtime worked versus paid ratios and identify outliers.
 
 
 ## **Data Collection:**
@@ -32,20 +32,21 @@ The following datasets will be collected and utilized:
 
 ## **Data Modeling:**
 
+1. Use linear methods like linear regression to model the trend of budget and overtime pay and predict for upcoming year. 
+2. Train a Decision Tree using features like rank, tenure, age, gender, and race to determine which groups are more likely to have low worked-to-paid ratios.
+3. Use Z-score analysis to compute the ratio of overtime paid vs. actual hours worked and detect extreme values
+
 
 ## **Data Visualization:**
 
-The visualization strategy will include:
+Tools: Matplotlib, Seaborn, PowerBI
 
-
-
-1. Interactive Dashboards: Utilize Power BI to create comprehensive dashboards showcasing budget shifts, overtime patterns, and demographic comparisons.
-2. Visualizations:
-    * Time Series Plots: To show changes in budget allocations over the years.
-    * Bar Charts: To compare average overtime pay versus regular pay.
-    * Scatter Plots: To illustrate correlations between demographics and overtime worked-to-paid ratios.
-3. Geospatial Analysis: Use ArcGIS to map overtime distribution and field activities geographically.
-4. Correlation Chart: To visualize relationships between key variables, identifying trends and dependencies.
+1. Line charts - Show how BPD’s budget has changed over the years.
+2. Stacked Bar Chart – Displays how budget allocation has shifted among departments over time
+3. Boxplot – Compares BPD salaries vs. other city employees to show salary distribution.
+4. Pie Chart – Illustrates the proportion of BPD salaries coming from injury pay.
+5. Scatter Plot – Shows the relationship between overtime hours worked vs. overtime hours paid.
+6. Decision Tree Diagram – If the Decision Tree model is used, we will visualize it.
 
 
 ## **Test Plan:**
