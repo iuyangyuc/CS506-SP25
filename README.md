@@ -8,12 +8,12 @@ The project aims to conduct a thorough analysis of the Boston Police Department 
 
 
 1. Analyze how the BPD budget has changed in 2011-2023, and identify trends in funding growth or shrinkage across departments.
-1. Analyze patterns in overtime pay, comparing it to regular pay and against non-BPD city employees.
-1. Use previous overtime data in 2011-2023 to predict overtime pay for the upcoming year, and compare it to the allocated budget.
-1. Determine how much of BPD’s total payroll comes from injury pay and the percentage of officers receiving it annually.
-1. Track annual financial trends of overtime hours paid compared to overtime hours worked and any discrimination in that trend.
+2. Analyze patterns in overtime pay, comparing it to regular pay and against non-BPD city employees.
+3. Use previous overtime data in 2011-2023 to predict overtime pay for the upcoming year, and compare it to the allocated budget.
+4. Determine how much of BPD’s total payroll comes from injury pay and the percentage of officers receiving it annually.
+5. Track annual financial trends of overtime hours paid compared to overtime hours worked and any discrimination in that trend.
 6. Determine whether specific demographics (e.g., senior, male, high-ranking, long-tenured officers) are more likely to have lower worked-to-paid overtime ratios.
-   Analyze the distribution of overtime worked versus paid ratios and identify outliers.
+7. Analyze the distribution of overtime worked versus paid ratios and identify outliers.
 
 
 ## **Data Collection:**
