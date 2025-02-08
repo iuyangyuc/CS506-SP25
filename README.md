@@ -22,12 +22,12 @@ The following datasets will be collected and utilized:
 
 
 
-1. Employee Earnings Data: Access payroll data from 2011-2023, including job title, name, department name, regular pay, gross pay, injury pay, other pay and overtime pay.
-2. BPD Roster: Obtain the roster to correlate demographics with earnings data.
-3. Overtime Data: Collect comprehensive overtime records from 2012-2022, including special events and court appearances.
-4. BPD Field Activity Data: Analyze field activity to understand engagement with the community.
-5. City of Boston Operating Budget: Gather the complete budget for the BPD, inclusive of allocations for overtime.
-6. Payroll definitions:  Explain certain professional terms related to income.
+1. Employee basic Data: Access payroll data from 2011-2023, including job title, name, department name, regular pay.
+2. Overtime Data: Collect comprehensive overtime records from 2012-2022, including Records overtime pay and special duty pay to analyze work patterns and additional compensation.
+3. Injury compensation Data: Includes injury pay to assess the financial impact of work-related injuries.
+4. Quinn Education Incentive: Captures Quinn education payments, reflecting additional earnings from continued education.
+5. Total Earnings: Represents the sum of all earnings, allowing for salary comparisons across different roles and individuals.
+
 
 
 ## **Data Modeling:**
