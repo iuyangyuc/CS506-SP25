@@ -70,7 +70,7 @@ Handle outliers by replacing them with the mean or mode, perform data type conve
 
   To analyze how BPD paychecks have changed year-over-year, we use Employee Earnings Report Dataset from 2014 to 2024 and focused on the “Total Gross” pay for police department employees. After standardizing column names and cleaning the pay fields, we filtered the dataset to isolate BPD employees. We then calculated the average total gross income for BPD employees each year and compared it to non-BPD city employees. We visualized the year-over-year changes in average pay for both BPD and non-BPD employees using a line chart.
 
-![6](/Users/spectual/BU_Study/CS506/CS506-SP25/img/6.png)
+![6](img/6.png)
 
   The results showed that the paycheck of both BPD and non-BPD employees have been increasing from 2014 to 2024. BPD paycheck have consistently been significantly higher than those of other city employees for around 60,000, with a notable increase in 2024.   This suggests either an increase in base pay, overtime, or additional compensation categories such as injury or education incentives, which may warrant further investigation.
 
