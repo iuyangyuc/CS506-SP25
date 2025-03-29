@@ -7,22 +7,22 @@ The project aims to conduct a thorough analysis of the Boston Police Department 
 
 
 
-1. Analyze how the BPD budget has changed in 2011-2023, and identify trends in funding growth or shrinkage across departments.
+1. Analyze how the BPD budget has changed in 2011-2024, and identify trends in funding growth or shrinkage across departments.
 2. Analyze patterns in overtime pay, comparing it to regular pay and against non-BPD city employees.
-3. Use previous overtime data in 2011-2023 to predict overtime pay for the upcoming year, and compare it to the allocated budget.
+3. Use previous overtime data in 2011-2024 to predict overtime pay for the upcoming year, and compare it to the allocated budget.
 4. Determine how much of BPD’s total payroll comes from injury pay and the percentage of officers receiving it annually.
 5. Track annual financial trends of overtime hours paid compared to overtime hours worked and any discrimination in that trend.
 6. Determine whether specific demographics (e.g., senior, male, high-ranking, long-tenured officers) are more likely to have lower worked-to-paid overtime ratios.
 7. Analyze the distribution of overtime worked versus paid ratios and identify outliers.
 
 
-## **Data Collection:**
+## **Dataset Collection:**
 
 The following datasets will be collected and utilized:
 
+**Earnings**:Employee Earnings Report dataset (2011-2024), 
 
-
-1. Employee basic Data: Access payroll data from 2011-2023, including job title, name, department name, regular pay.
+1. Employee basic Data: Access payroll data from 2011-2024, including job title, name, department name, regular pay.
 2. Overtime Data: Collect comprehensive overtime records from 2012-2022, including Records overtime pay and special duty pay to analyze work patterns and additional compensation.
 3. Injury compensation Data: Includes injury pay to assess the financial impact of work-related injuries.
 4. Quinn Education Incentive: Captures Quinn education payments, reflecting additional earnings from continued education.
