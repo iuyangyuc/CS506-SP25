@@ -1,5 +1,10 @@
+# Midterm Report
+
+> Presentation Link: https://youtu.be/LUZrgBl8O8Y
+
 ## **Project Description**
-The project aims to conduct a thorough analysis of the Boston Police Department (BPD)’s budget, specifically focusing on overtime expenditures. Given the significant operating budget of over $400 million allocated to the BPD, understanding how funds are spent, particularly in the context of overtime, is crucial for ensuring accountability and transparency. The project will involve cleaning, analyzing, and visualizing overtime data to answer key questions regarding shifts in budget, patterns in overtime pay, and potential inequities within the department.
+
+The project aims to conduct a thorough analysis of the Boston Police Department (BPD)’s budget. Given the significant operating budget of over $4.6 billion allocated to the BPD, understanding how funds are spent, particularly in the context of overtime, is crucial for ensuring accountability and transparency. The project will involve cleaning, analyzing, and visualizing overtime data to answer key questions regarding shifts in budget, patterns in overtime pay, and potential inequities within the department.
 
 ## **Clear Goals**
 1. Analyze how the BPD budget has changed in 2011-2024, and identify trends in funding growth or shrinkage across departments.
