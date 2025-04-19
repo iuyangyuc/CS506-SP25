@@ -1,6 +1,13 @@
 # Midterm Report
 
-> Presentation Link: https://youtu.be/LUZrgBl8O8Y
+> Midterm Presentation Link: https://youtu.be/LUZrgBl8O8Y
+
+## Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
 
 ## **Project Description**
 
