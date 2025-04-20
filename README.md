@@ -92,19 +92,30 @@ Handle outliers by replacing them with the mean or mode, perform data type conve
 
 ![7](./img/7.png)
 
-4. **How much BPD officer pay came from injury pay? What percentage of officers took injury pay in a given year?** 
+4. **How much BPD officer pay came from injury pay? What percentage of officers took injury pay in a given year?**  
 
-  To understand how much of BPD officer pay came from injury compensation, we analyzed the “Injured” pay column in relation to the total gross income from 2014 to 2024. After dropping records with missing injury pay data, we calculated the ratio of injury pay to total gross pay for each officer and examined how this ratio varied by year. We calculated the average injury pay ratio per year and plotted it as a bar chart to observe trends over time. 
+#### Assumptions
+
+1. Officers with non-null “Injured” pay values are considered to have received injury compensation.
+2. The injury pay ratio is defined as: (Injury Pay) / (Total Gross) per officer.
+3. Average injury pay ratios are computed on a per-year basis.
+4. The proportion of injured officers each year is: (Number of officers with injury pay) / (Total number of officers that year).
 
 ![8](./img/8.png)
 
-  This chart illustrates the percentage of total gross pay that came from injury compensation for BPD officers from 2014 to 2024. In 2014, injury pay accounted for the lowest share of officer income for 9%. A significant increase followed in 2015 (21%), and from 2015 to 2021, the percentage rose steadily year over year, indicating a growing reliance on injury-related compensation. In 2022, there was a notable jump (41%), marking the peak of this trend. 2023 saw a slight decline (38%), and in 2024, the percentage dropped sharply (16%). The sharp decline in 2024 likely reflects a policy or enforcement shift aimed at reducing overuse or abuse of injury-related pay claims. 
 
-  To determine what percentage of BPD officers received injury pay each year,we counted the number of officers who had a non-null injury pay value for each year, treating this as the number of officers who received injury compensation. And we calculate the proportion of injured officers by dividing the injury count by the total count. Then we visualized these percentages using a bar chart to highlight year-over-year trends in injury pay participation. 
 
 ![9](./img/9.png)
 
-  This chart shows the percentage of BPD officers who received injury pay each year. On average, around 17% of BPD officers received injury compensation annually. We can observe that the percentage was notably high in both 2014 and 2024. This is somewhat unexpected, especially when compared to the previous chart showing the injury pay ratio, where 2014 and 2024 had some of the lowest ratios. This suggests that while more officers may have received injury pay in those years, the individual amounts were relatively small, or their total compensation was much higher overall—causing the ratio to appear lower. The disconnect between participation rate and pay proportion highlights the need to consider both the breadth and depth of injury compensation when evaluating its role in officer earnings.
+#### Observations
+
+The charts show the percentage of total gross pay that came from injury compensation for BPD officers and the percentage of BPD officers who received injury pay each year from 2011 to 2024. On average, around 17% of BPD officers received injury compensation annually. The data reveals significant spikes in the injury rate among Boston Police Department (BPD) officers in the years 2014, 2020, 2021, and 2024. These spikes are accompanied by notable fluctuations in the injury pay ratio—sharp increases in 2020–2022 and notably low ratios in 2014 and 2024
+
+- In 2014, the percentage of injured officers spiked to over 25%, while the injury pay ratio remained unusually low. In this year, national protests following the deaths of [Michael Brown](https://en.wikipedia.org/wiki/Killing_of_Michael_Brown) and [Eric Garner](https://en.wikipedia.org/wiki/Killing_of_Eric_Garner) led to large-scale demonstrations in Boston. This suggests that a large number of officers may received minor injury compensation during large-scale public protests, which could explain the low injury pay ratio. 
+- In 2020 and 2021, both injury participation and average injury pay ratio increased significantly, likely due to the [George Floyd protests in Boston](https://en.wikipedia.org/wiki/George_Floyd_protests_in_Massachusetts) and continued pandemic-related stress and enforcement duties. A [high-risk standoff in Dorchester](https://www.wgbh.org/news/politics/2021-11-11/wu-calls-tuesdays-police-shooting-an-example-of-large-systemic-failure?utm_source=chatgpt.com) also contributed to officer injuries in 2021. 
+- Most recently, in 2024, the proportion of injured officers reached a record high (over 30%), but the average injury pay ratio dropped sharply.  This suggests widespread but minor injuries, likely associated with the [pro-Palestinian encampment removal at Emerson College](https://www.wcvb.com/article/boston-police-arrest-protesters-clear-pro-palestinian-encampment-at-emerson-college/60600586?utm_source=chatgpt.com), where over 100 arrests were made and several officers were hurt. 
+
+These observations suggest that surges in injury rates may be closely tied to periods of civil unrest and intense policing demands.
 
 5. **How do overtime hours paid compare to overtime hours worked? What does the discrepancy financially amount to, year after year?**
     Due to lack of gender or race information, this question is postponed.
