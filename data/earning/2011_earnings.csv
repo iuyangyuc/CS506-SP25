@@ -1,4 +1,4 @@
-﻿_id,Name,Department Name,Title,Regular,Retro,Other,Overtime,Injured,Detail,Quinn,Total Earnings,Zip Code
+_ID,NAME,DEPARTMENT_NAME,TITLE,REGULAR,RETRO,OTHER,OVERTIME,INJURED,DETAIL,QUINN_EDUCATION,TOTAL_GROSS,ZIP CODE
 1,"Abadi,Kidani A",Assessing Department,Property Officer (Asn),$33065.38,$0.00,$0.00,$379.49,$0.00,$0.00,$0.00,$33444.87,02118-3126
 2,"Ablon,Jordan N",ASD Office Of Labor Relation,Asst Corp Counsel III,$76051.24,$0.00,$1321.03,$0.00,$0.00,$0.00,$0.00,$77372.27,02135-5943
 3,"Accardi,Patricia",Transportation-Parking Clerk,Chief Claims Investigator,$56430.79,$0.00,$0.00,$418.58,$0.00,$0.00,$0.00,$56849.37,02081-3751
