@@ -137,7 +137,7 @@ These observations suggest that surges in injury rates may be closely tied to pe
   The sharp drop in the ratio in 2020 was very likely related to the COVID-19 pandemic.
 That year, Boston experienced multiple lockdowns, leading to reduced public activity and shifts in police deployment, which disrupted the usual structure of overtime work.
 
-   It’s possible that opportunities or methods for reporting overtime changed, or that some officers received overtime compensation without actually working additional hours — for example, through special allowances or standby duty.from the (https://baystatebanner.com/2021/05/05/councilors-struggle-to-rein-in-police-overtime/), this article provides concrete evidence that the drop in the overtime “worked hours/paid hours” ratio in 2020 was likely influenced by structural compensation rules, civil unrest, and pandemic disruptions — all of which inflated paid hours without necessarily increasing actual work time.
+   It’s possible that opportunities or methods for reporting overtime changed, or that some officers received overtime compensation without actually working additional hours — for example, through special allowances or standby duty. From the (https://baystatebanner.com/2021/05/05/councilors-struggle-to-rein-in-police-overtime/), this article provides concrete evidence that the drop in the overtime “worked hours/paid hours” ratio in 2020 was likely influenced by structural compensation rules, civil unrest, and pandemic disruptions — all of which inflated paid hours without necessarily increasing actual work time.
 
 For the question of are there any outliers, since the drop in 2020 is significantly larger than the gradual changes observed in previous years.
 
