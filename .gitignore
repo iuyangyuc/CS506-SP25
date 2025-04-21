@@ -11,3 +11,4 @@ idea/
 *.db
 __pycache__/
 
+/code/data
