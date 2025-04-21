@@ -82,13 +82,19 @@ Handle outliers by replacing them with the mean or mode, perform data type conve
 
 #### Assumptions
 
-To analyze how BPD paychecks have changed year-over-year, we use Employee Earnings Report Dataset from 2014 to 2024 and focused on the “Total Gross” pay for police department employees. After standardizing column names and cleaning the pay fields, we filtered the dataset to isolate BPD employees. We then calculated the average total gross income for BPD employees each year and compared it to non-BPD city employees. We visualized the year-over-year changes in average pay for both BPD and non-BPD employees using a line chart.
+1. Only non-BPD departments that **exist in all years** from 2011 to 2024 are included in the comparison.
+2. Among those non-BPD departments, only the **top 10 by employee count** are selected.
+3. Average gross pay is calculated using the **mean of TOTAL_GROSS** per department per year.
 
 ![6](img/6.png)
 
 #### Observations
 
-The results showed that the paycheck of both BPD and non-BPD employees have been increasing from 2014 to 2024. BPD paycheck have consistently been significantly higher than those of other city employees for around 60,000, with a notable increase in 2024.   This suggests either an increase in base pay, overtime, or additional compensation categories such as injury or education incentives, which may warrant further investigation.
+This chart shows that all non-BPD departments except Boston Fire Department (BPD)—including Human Resources, City Council, Libraries, Youth Services, and Budget Management—consistently earn much lower average pay than BPD and BFD, generally between \$40,000 and \$90,000.
+
+* BFD leads in pay across almost all years. The Boston Fire Department consistently has the highest average gross pay from 2011 to 2024, except for 2017, where BPD briefly overtook it. In 2024, the BFD average salary exceeds $180,000, maintaining its top position despite BPD’s rapid growth.
+* BPD is a strong second, with a sharp spike in 2024. Despite this surge, BPD still remains second to BFD in 2024, but the gap narrows significantly.
+* In 2024, both BPD and BFD experienced substantial spikes in average gross pay, likely due to a combination of new collective bargaining agreements, increased overtime from high-profile events (e.g., the Emerson College protests), and retroactive pay. For BPD, this [retroactive compensation](https://www.wbur.org/news/2025/03/12/boston-police-salaries-city-employee#:~:text=In%20Boston%2C%20the,2024%27s%20pay) stemmed from a newly ratified five-year contract that covered wages dating back to 2020, while BFD’s increase followed a similar contract adjustment retroactive to 2021. These factors collectively contributed to sharp year-over-year earnings growth, particularly among frontline public safety personnel.
 
 3. **Given previous overtime data, predict the amount of overtime paid for the next year. How does this compare with the budget allocation for the BPD?**
 
