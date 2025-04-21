@@ -97,8 +97,24 @@ This chart shows that all non-BPD departments except Boston Fire Department (BPD
 * In 2024, both BPD and BFD experienced substantial spikes in average gross pay, likely due to a combination of new collective bargaining agreements, increased overtime from high-profile events (e.g., the Emerson College protests), and retroactive pay. For BPD, this [retroactive compensation](https://www.wbur.org/news/2025/03/12/boston-police-salaries-city-employee#:~:text=In%20Boston%2C%20the,2024%27s%20pay) stemmed from a newly ratified five-year contract that covered wages dating back to 2020, while BFD’s increase followed a similar contract adjustment retroactive to 2021. These factors collectively contributed to sharp year-over-year earnings growth, particularly among frontline public safety personnel.
 
 3. **Given previous overtime data, predict the amount of overtime paid for the next year. How does this compare with the budget allocation for the BPD?**
+   
+#### Assumptions
+##### Year 2016
+The timing of the FY2016 reduction strongly suggests a link to actions taken by the City in response to the FY2015 overspending crisis. Sources explicitly state that after the FY2015 peak, "the City implemented initiatives to control public safety overtime spending, with focus on Police". While the specific details of these initiatives implemented between FY2015 and FY2016 remain unclear , the stated intent was to rein in costs.   
 
-  The original dataset has mixed data type and some of the data types are “Object”, which is not suitable for further computation. So, current focus on date preprocessing, such as data cleaning and data type correction. Preliminary results are achieved by a simple linear model regardless of the department. Current model can only predict the trade due to a poor R^2 score. 
+##### Year 2021
+The COVID-19 pandemic exerted a complex and significant influence on BPD operations and overtime throughout FY2021. Its effects were twofold, simultaneously reducing some traditional overtime needs while creating new ones:
+
+#### Observations
+##### Year 2016
+The data clearly shows a reduction in actual BPD overtime spending between FY2015 and FY2016. Expenditures fell by 4%, a decrease of $2.4 million, from $59.9 million in FY2015 to $57.5 million in FY2016.   
+
+This decrease, however, must be viewed against the backdrop of FY2015, which represented a high-water mark for overtime overspending. In that year, the department exceeded its overtime budget by $24.9 million, a staggering 70.9% above the allocated amount – the largest such deficit in a decade. Therefore, the $57.5 million spent in FY2016, while lower than the previous year, was still a substantial absolute figure. Given the chronic pattern of overspending established in Section I, it is highly probable that this $57.5 million still exceeded the amount budgeted specifically for FY2016, even though the exact budget figure and deficit for that year are not explicitly provided in the available materials.   
+
+The nature of the FY2016 reduction, therefore, appears to be more of a partial regression from an extreme outlier year than a fundamental shift towards achieving sustainable, budgeted spending levels. It represented a moderation following intense pressure, rather than the establishment of effective long-term cost control.
+##### Year 2021
+Despite this substantial budget reduction, the department's actual overtime spending, while lower than the previous year, far exceeded the new target. Data indicates that actual overtime expenditures in FY2021 decreased by $6.48 million compared to the $74 million spent in FY2020. This implies actual FY2021 spending was approximately $67.5 million. However, other sources report total incurred overtime in FY2021 was over $68.2 million.  
+
 
 ![7](./img/7.png)
 
