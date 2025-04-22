@@ -159,14 +159,14 @@ In conclusion, officers with higher-ranking titles appear more likely to receive
 
 #### Observations
 
-The distribution of the ratios of overtime paid hours to court worked hours is right-skewed, with a large number of observations clustered at lower ratios (0.1 to 0.3). And there are smaller peaks near 0.5 and 0.95–1.0, indicating some officers are being paid overtime that closely aligns with, or nearly equals, the number of hours worked.
+* The distribution of the ratios of overtime paid hours to court worked hours is right-skewed, with a large number of observations clustered at lower ratios (0.1 to 0.3). And there are smaller peaks near 0.5 and 0.95–1.0, indicating some officers are being paid overtime that closely aligns with, or nearly equals, the number of hours worked.
 
-The worked-to-paid ratio has shown a consistent decline from 2014 to 2020, dropping from about 0.55 to 0.37. This trend indicates that over time, employees are being paid for more overtime hours than they report working on average. The drop between 2018 and 2020 is especially sharp, which may point to policy shifts, systemic inefficiencies, or underreporting of actual hours worked.
-  
-The sharp drop in the ratio in 2020 was very likely related to the COVID-19 pandemic.
-  That year, Boston experienced multiple lockdowns, leading to reduced public activity and shifts in police deployment, which disrupted the usual structure of overtime work.
+* The worked-to-paid ratio has shown a consistent decline from 2014 to 2020, dropping from about 0.55 to 0.37. This trend indicates that over time, employees are being paid for more overtime hours than they report working on average. The drop between 2018 and 2020 is especially sharp, which may point to policy shifts, systemic inefficiencies, or underreporting of actual hours worked.
 
-It’s possible that opportunities or methods for reporting overtime changed, or that some officers received overtime compensation without actually working additional hours — for example, through special allowances or standby duty. From the (https://baystatebanner.com/2021/05/05/councilors-struggle-to-rein-in-police-overtime/), this article provides concrete evidence that the drop in the overtime “worked hours/paid hours” ratio in 2020 was likely influenced by structural compensation rules, civil unrest, and pandemic disruptions — all of which inflated paid hours without necessarily increasing actual work time.
+* The sharp drop in the ratio in 2020 was very likely related to the COVID-19 pandemic.
+    That year, Boston experienced multiple lockdowns, leading to reduced public activity and shifts in police deployment, which disrupted the usual structure of overtime work.
+
+It’s possible that opportunities or methods for reporting overtime changed, or that some officers received overtime compensation without actually working additional hours — for example, through special allowances or standby duty. From [this article](https://baystatebanner.com/2021/05/05/councilors-struggle-to-rein-in-police-overtime/), provides concrete evidence that the drop in the overtime “worked hours/paid hours” ratio in 2020 was likely influenced by structural compensation rules, civil unrest, and pandemic disruptions — all of which inflated paid hours without necessarily increasing actual work time.
 
 For the question of are there any outliers, since the drop in 2020 is significantly larger than the gradual changes observed in previous years.
 
