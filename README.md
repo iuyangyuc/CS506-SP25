@@ -65,7 +65,18 @@ Handle outliers by replacing them with the mean or mode, perform data type conve
 
 ## **Preliminary Result**
 1. **How has the BPD budget changed year-over-year?** 
+#### Assumptions
 
+1. Budget Categories Are Consistent:
+2. Budget Growth Reflects Real Increases, Not Inflation Alone:
+3. Minimal Reallocation Between Categories:is calculated using the **mean of TOTAL_GROSS** per department per year.
+4. Which positions within a police department have the highest salaries? What is the primary salary structure?
+5. What were the trends in police department budgets and compensation from 2020 to 2024?
+6. How does the police department's compensation compare to that of other municipal departments?
+7. Are there departments where employees receive additional compensation, such as disability pay, due to high-risk job roles?
+
+
+#### Observations
   To identify where there was financial excess in BPD spending we first looked at how the BPD budget had changed year over year. We looked at data from 2022-2025 as this was available to us from the City Of Boston. The overall budget was broken up into seven categories: Contractual Services, Current Charges & Obligation, Equipment, Fixed Expenses, Other Expenses, Personnel Services, and Supplies and Materials. To determine how the budget has changed between these categories, we looked at the percent each category made up of the total budget.From the graph, it is evident that Personnel Services consistently accounted for the largest portion of the total budget across all fiscal years from 2022 to 2025. This category highlights the significant costs associated with salaries and benefits, which dominate the overall spending. Year over year, while other categories such as Contractual Services, Current Charges & Obligations, and Supplies & Materials show relatively minimal changes in their share of the budget, the increasing trend in Other Expenses and Fixed Expenses suggests growing commitments or new initiatives that demanded additional funding. Notably, Equipment and Supplies & Materials remain the smallest contributors to the budget each year, indicating these areas are less prioritized. Despite these being essential for operations, their consistent low allocation reflects that BPD likely focuses resources on personnel-related and operational necessities rather than physical assets or materials. By 2025, the overall budget shows a consistent increase compared to previous years, with the largest growth occurring in Personnel Services and Other Expenses. This trend points to potential financial excess in staffing costs and operational overhead.
 
 ![3](./img/3.png)
@@ -77,6 +88,28 @@ Handle outliers by replacing them with the mean or mode, perform data type conve
   Lastly we looked at the changes in funding between departments. To do this we looked at earnings data from 2012-2022. From this we were able to see which departments received the highest salaries and therefore the most budget for that category, focusing on the top 10 departments.As the image shows, the police department has consistently been the highest-earning department between 2020 and 2024, with a significant increase in 2024. While other departments have remained relatively stable, this suggests a budget increase for the police department in 2024.
 
 ![5](./img/5.png)
+
+To better analyze the variations in revenue growth, we created a detailed revenue and expenditure analysis for the top ten departments in total revenue for both 2020 and 2024, as shown in the image below.
+
+![14](./img/14.png)
+![15](./img/15.png)
+
+The charts indicate that the Boston Police Department and Boston Fire Department have the highest regular salaries, likely due to the inherent risks of their work. Overtime pay data confirms frequent overtime in these departments, and they also exhibit the highest rates of injury and associated compensation, unlike other departments which report almost no injuries. Additionally, the Boston Police Department's involvement in education and training contributes to their comparatively higher salaries.
+
+Next, we compared the 2020 and 2024 income data within the Boston Police Department.
+
+![16](./img/16.png)
+
+Based on our previous analysis, we know that the total revenue in 2024 is greater than that in 2020. Comparing the charts, we observe an increase in regular wages and overtime pay in 2024 compared to 2020, while other income components remained relatively stable. This indicates that the company increased compensation for employees' regular and overtime hours in 2024, reflecting a greater recognition of employee labor value and enhanced incentives. The stability in other income items (such as bonuses and allowances) suggests a consistent policy in these areas. Therefore, the increase in total revenue in 2024 is primarily attributed to the growth in regular wages and overtime pay.
+
+Another interesting point is that the number of INJURED in 2020 is slightly higher than in 2024. We calculated the average, maximum, and variance of INJURED for both 2020 and 2024. The data is as follows:
+2020 Injured - Max: 25272021.09, Mean: 4231181.3149999995, Variance: 80574886206358.27 
+2024 Injured - Max: 20552550.44, Mean: 4105282.082, Variance: 68899807503967.93
+Based on the data, the number of extremely high injury compensation cases decreased significantly from 2020 to 2024, and the overall distribution became more compact and equitable. This may be due to policy adjustments, improved management practices, or stricter subsidy reviews.
+* Since the killing of George Floyd in 2020, social movements calling for police reform and defunding the police have put pressure on budget allocations. These protests spurred audits and discussions of police budgets by city governments. Despite intentions to cut police spending, the actual result has been increased budgets. Many discussions have suggested shifting some police funding to [public health and community safety programs](https://baystatebanner.com/2024/09/19/boston-police-to-reach-record-breaking-100-million-overtime-budget/).
+* Personnel costs consistently account for the largest portion of the BPD's budget, primarily due to rising salaries and benefits. Analysis indicates that the BPD's budget increased by $9.88 million in 2024, mainly to recruit and retain officers, reflecting a continued need for increased recruitment and training of new officers, for example, to [mitigate attrition](https://data.aclum.org/2023/05/05/analyzing-fy24-boston-police-department-budget-recommendation/).
+* The BPD's overtime costs are steadily rising. The high-risk nature of police work contributes to relatively high salaries and overtime pay, which significantly impacts overall expenditures, especially during periods of [economic constraint](https://www.baystatebanner.com/2024/09/19/boston-police-to-reach-record-breaking-100-million-overtime-budget/).
+* The wage increase for injured workers may be due to increased compensation amounts resulting from rising workplace [health and safety standards](https://www.bostonglobe.com/metro/2016/07/04/boston-police-officers-injured-duty-collect-big-paychecks/BF6J6tyHgCPPY6nYcWkFbJ/story.html).
 
 2. **How have BPD paychecks changed year-over-year? Both the average amount, as compared with non-BPD Boston city.**
 
@@ -97,8 +130,24 @@ This chart shows that all non-BPD departments except Boston Fire Department (BPD
 * In 2024, both BPD and BFD experienced substantial spikes in average gross pay, likely due to a combination of new collective bargaining agreements, increased overtime from high-profile events (e.g., the Emerson College protests), and retroactive pay. For BPD, this [retroactive compensation](https://www.wbur.org/news/2025/03/12/boston-police-salaries-city-employee#:~:text=In%20Boston%2C%20the,2024%27s%20pay) stemmed from a newly ratified five-year contract that covered wages dating back to 2020, while BFD’s increase followed a similar contract adjustment retroactive to 2021. These factors collectively contributed to sharp year-over-year earnings growth, particularly among frontline public safety personnel.
 
 3. **Given previous overtime data, predict the amount of overtime paid for the next year. How does this compare with the budget allocation for the BPD?**
+   
+#### Assumptions
+##### Year 2016
+The timing of the FY2016 reduction strongly suggests a link to actions taken by the City in response to the FY2015 overspending crisis. Sources explicitly state that after the FY2015 peak, "the City implemented initiatives to control public safety overtime spending, with focus on Police". While the specific details of these initiatives implemented between FY2015 and FY2016 remain unclear , the stated intent was to rein in costs.   
 
-  The original dataset has mixed data type and some of the data types are “Object”, which is not suitable for further computation. So, current focus on date preprocessing, such as data cleaning and data type correction. Preliminary results are achieved by a simple linear model regardless of the department. Current model can only predict the trade due to a poor R^2 score. 
+##### Year 2021
+The COVID-19 pandemic exerted a complex and significant influence on BPD operations and overtime throughout FY2021. Its effects were twofold, simultaneously reducing some traditional overtime needs while creating new ones:
+
+#### Observations
+##### Year 2016
+The data clearly shows a reduction in actual BPD overtime spending between FY2015 and FY2016. Expenditures fell by 4%, a decrease of $2.4 million, from $59.9 million in FY2015 to $57.5 million in FY2016.   
+
+This decrease, however, must be viewed against the backdrop of FY2015, which represented a high-water mark for overtime overspending. In that year, the department exceeded its overtime budget by $24.9 million, a staggering 70.9% above the allocated amount – the largest such deficit in a decade. Therefore, the $57.5 million spent in FY2016, while lower than the previous year, was still a substantial absolute figure. Given the chronic pattern of overspending established in Section I, it is highly probable that this $57.5 million still exceeded the amount budgeted specifically for FY2016, even though the exact budget figure and deficit for that year are not explicitly provided in the available materials.   
+
+The nature of the FY2016 reduction, therefore, appears to be more of a partial regression from an extreme outlier year than a fundamental shift towards achieving sustainable, budgeted spending levels. It represented a moderation following intense pressure, rather than the establishment of effective long-term cost control.
+##### Year 2021
+Despite this substantial budget reduction, the department's actual overtime spending, while lower than the previous year, far exceeded the new target. Data indicates that actual overtime expenditures in FY2021 decreased by $6.48 million compared to the $74 million spent in FY2020. This implies actual FY2021 spending was approximately $67.5 million. However, other sources report total incurred overtime in FY2021 was over $68.2 million.  
+
 
 ![7](./img/7.png)
 
@@ -143,9 +192,10 @@ These observations suggest that surges in injury rates may be closely tied to pe
 
 #### Observations
 
-The data suggests a clear trend: higher-ranking officers tend to have lower worked-to-paid overtime ratios. In other words, they are typically paid for significantly more overtime hours than they report working.As shown in the chart, officers with higher ranks (e.g., 8 and 9) have the lowest average ratios, while those with lower ranks (e.g., 3 and 4) show higher ratios, indicating that their reported worked hours are more closely aligned with the overtime hours paid.
+The data suggests a clear trend: higher-ranking officers tend to have lower worked-to-paid overtime ratios. In other words, they are typically paid for significantly more overtime hours than they report working.
+- As shown in the chart, officers with higher ranks (e.g., 8 and 9) have the lowest average ratios, while those with lower ranks (e.g., 3 and 4) show higher ratios, indicating that their reported worked hours are more closely aligned with the overtime hours paid.
 
-One possible reason for this discrepancy is that higher-ranking officers may have more discretion or administrative authority in approving overtime, which could lead to less standardized documentation of their actual work hours.
+- One possible reason for this discrepancy is that higher-ranking officers may have more discretion or administrative authority in approving overtime, which could lead to less standardized documentation of their actual work hours.
 
 In conclusion, officers with higher-ranking titles appear more likely to receive overtime pay disproportionate to their reported work hours, highlighting potential disparities in how overtime is allocated or documented across ranks.
 
@@ -161,25 +211,23 @@ In conclusion, officers with higher-ranking titles appear more likely to receive
 
 * The distribution of the ratios of overtime paid hours to court worked hours is right-skewed, with a large number of observations clustered at lower ratios (0.1 to 0.3). And there are smaller peaks near 0.5 and 0.95–1.0, indicating some officers are being paid overtime that closely aligns with, or nearly equals, the number of hours worked.
 
-* The worked-to-paid ratio has shown a consistent decline from 2014 to 2020, dropping from about 0.55 to 0.37. This trend indicates that over time, employees are being paid for more overtime hours than they report working on average. The drop between 2018 and 2020 is especially sharp, which may point to policy shifts, systemic inefficiencies, or underreporting of actual hours worked.
+- The worked-to-paid ratio has shown a consistent decline from 2014 to 2020, dropping from about 0.55 to 0.37. This trend indicates that over time, employees are being paid for more overtime hours than they report working on average. 
+- The drop between 2018 and 2020 is especially sharp, which may point to policy shifts, systemic inefficiencies, or underreporting of actual hours worked.
+  
+- The sharp drop in the ratio in 2020 was very likely related to the COVID-19 pandemic.That year, Boston experienced multiple lockdowns, leading to reduced public activity and shifts in police deployment, which disrupted the usual structure of overtime work.
 
-* The sharp drop in the ratio in 2020 was very likely related to the COVID-19 pandemic.
-    That year, Boston experienced multiple lockdowns, leading to reduced public activity and shifts in police deployment, which disrupted the usual structure of overtime work.
+- It’s also possible that opportunities for reporting overtime changed, or that some officers received overtime compensation without actually working additional hours — for example, through special allowances or standby duty. From the [Local news](https://baystatebanner.com/2021/05/05/councilors-struggle-to-rein-in-police-overtime/), this article provides concrete evidence that the drop in the overtime “worked hours/paid hours” ratio in 2020 was likely influenced by structural compensation rules, civil unrest, and pandemic disruptions — all of which inflated paid hours without necessarily increasing actual work time.
 
-It’s possible that opportunities or methods for reporting overtime changed, or that some officers received overtime compensation without actually working additional hours — for example, through special allowances or standby duty. From [this article](https://baystatebanner.com/2021/05/05/councilors-struggle-to-rein-in-police-overtime/), provides concrete evidence that the drop in the overtime “worked hours/paid hours” ratio in 2020 was likely influenced by structural compensation rules, civil unrest, and pandemic disruptions — all of which inflated paid hours without necessarily increasing actual work time.
-
-For the question of are there any outliers, since the drop in 2020 is significantly larger than the gradual changes observed in previous years.
-
-For the question of are there any outliers, since the drop in 2020 is significantly larger than the gradual changes observed in previous years.
-  We draw the box plot of 2020 data and set the threshold to 0.1, as we believe extremely low ratio values may be skewing the mean distribution in 2020.
-
-![12](./img/12.png)
-
-The outliers are shown in the following figure, which are lower than 0.1.
+- For the question of are there any outliers, since the drop in 2020 is significantly larger than the gradual changes observed in previous years.
+  We draw the box plot of 2020 data and set the threshold to 0.1, as we believe extremely low ratio values may be skewing the mean distribution in 2020. ![12](./img/12.png) The outliers are shown in the following figure, which are lower than 0.1.
 
 ![13](./img/13.png)
 
 
+### Further Questoin:
+1.  **Are there systemic inequalities ingrained in the policing system?**
+For this problem, we're starting with postal codes to explore whether overtime pay is fair across different regions. Our plan is to analyze the ratio of overtime pay to total earnings. Below is the distribution of this ratio across different regions:
 
+![17](./img/17.png)
 
-
+We've observed significant variations in overtime pay rates across different regions. Some zip codes show rates exceeding 0.35, while others are below 0.10. The proportion of overtime earnings by zip code reveals clear regional disparities within the police system. This indicates that overtime income is not being distributed equally or fairly across different areas. While this data alone doesn't definitively prove inequality, it does reflect inequitable distribution. Further multi-factor analysis (e.g., demographics, local policies, crime rates) would help determine the underlying causes of these differences.
