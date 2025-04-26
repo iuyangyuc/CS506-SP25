@@ -265,8 +265,21 @@ In conclusion, officers with higher-ranking titles appear more likely to receive
 
 ## Further Question:
 ### 1.  Are there systemic inequalities ingrained in the policing system?
-For this problem, we're starting with postal codes to explore whether overtime pay is fair across different regions. Our plan is to analyze the ratio of overtime pay to total earnings. Below is the distribution of this ratio across different regions:
 
+#### Assumptions
+
+1. For this problem, we're starting with postal codes to explore whether overtime pay is fair across different regions. Our plan is to analyze the ratio of overtime pay to total earnings. Below is the distribution of this ratio across different regions
+2. The postal code and location type are as an indicator for judging the region.
+3. Overtime ratio is defined as (total oveertime / total gross)
+4. The WRKDHRS / OTHOURS is defined as: (worked hour) / (paid hour) per officer. 
+
+
+#### Observations
 ![17](./img/17.png)
-
-We've observed significant variations in overtime pay rates across different regions. Some zip codes show rates exceeding 0.35, while others are below 0.10. The proportion of overtime earnings by zip code reveals clear regional disparities within the police system. This indicates that overtime income is not being distributed equally or fairly across different areas. While this data alone doesn't definitively prove inequality, it does reflect inequitable distribution. Further multi-factor analysis (e.g., demographics, local policies, crime rates) would help determine the underlying causes of these differences.
+- We've observed significant variations in overtime pay rates across different regions. Some zip codes show rates exceeding 0.35, while others are below 0.10. The proportion of overtime earnings by zip code reveals clear regional disparities within the police system.
+- This indicates that overtime income is not being distributed equally or fairly across different areas. While this data alone doesn't definitively prove inequality, it does reflect inequitable distribution. Further multi-factor analysis (e.g., demographics, local policies, crime rates) would help determine the underlying causes of these differences.
+![18](./img/18.png)
+- The chart visualizes the average WRKDHRS / OTHOURS ratio across different locations.
+From the distribution, we observe substantial variation across areas:
+- Some locations exhibit significantly higher overtime ratios (closer to 0.8), indicating a tighter correspondence between hours worked and overtime compensated. Other locations (less than 0.4) show noticeably lower ratios, suggesting discrepancies between actual working hours and overtime payment.
+- The clear gradient in the chart suggests that the overtime compensation practices are not uniform across locations. Instead, there appear to be systematic regional differences in how overtime hours are credited relative to actual work performed.
