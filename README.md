@@ -73,8 +73,6 @@ The following datasets are collected and utilized:
 Linear model: Using the scikit-learn library, a linear model was developed to forecast overtime pay trends across various departments. Despite the model's current simplicity, it is projected that overtime pay will continue to increase.
 
 ## **Data Processing:**
-*Please run the notebooks to reproduce the visualizations and interact with some interactive plots.*
-
 **Tools**: Pandas, Re, Numpy
 
 For the Earning dataset in the CSV file, many data fields need to be standardized. For example, remove the dollar sign ($) from salary values, unify the representation of missing values in the table, and use Pandas for format conversion, such as applying regular expressions for batch processing. 
@@ -84,6 +82,8 @@ Handle outliers by replacing them with the mean or mode, perform data type conve
 
 
 ## **Data Visualization:**
+
+*Please run the notebooks to reproduce the visualizations and interact with some interactive plots.*
 
 **Tools**: Matplotlib, Seaborn, Plotly
 
