@@ -1,6 +1,6 @@
-# Midterm Report
+# Final Report
 
-> Midterm Presentation Link: https://youtu.be/LUZrgBl8O8Y
+> Final Presentation Link: 
 
 ## Install Dependencies
 
@@ -8,6 +8,36 @@
 pip install -r requirements.txt
 ```
 
+## Project Structure
+
+```
+CS506-SP25/
+│
+├── README.md               
+├── requirements.txt        
+│
+├── code/       
+│   ├── q1.ipynb	# ipynb files run all the visualizations for specific questions
+│   ├── q2_4.ipynb
+│   ├── q3_5.ipynb
+│   ├── q6_7.ipynb
+│   ├── process.py	# store functions to preprocess data
+│   ├── regression.py	# store functions for machine learning
+│
+├── data/       
+│   ├── Overtime/
+│   ├── budget/
+│   ├── earning/
+```
+
+We organized all data visualization functions and analysis code into separate Jupyter Notebook files corresponding to each specific question. To improve code reusability and maintainability, we encapsulated all common data loading and preprocessing routines into standalone Python modules, which are imported and reused across different notebooks.
+
+## How To Run
+
+```
+cd code
+# Run All Cells In Notebooks: Kernel -> Restart & Run All
+```
 
 ## **Project Description**
 
