@@ -45,6 +45,13 @@ We organized all data visualization functions and analysis code into separate Ju
 ```
 cd code
 # Run All Cells In Notebooks: Kernel -> Restart & Run All
+# Save all notebook results to folder ./output
+
+# MacOS
+./run.sh
+
+# Windows
+#Double click run.bat
 ```
 
 ## **Project Description**
