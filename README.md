@@ -45,7 +45,7 @@ We organized all data visualization functions and analysis code into separate Ju
 ```
 cd code
 # Run All Cells In Notebooks: Kernel -> Restart & Run All
-# Save all notebook results to folder ./output
+# If you have jupyter in your environment, you can run the following scripts to run notebooks automatically and save the outputs to ./output
 
 # MacOS
 ./run.sh
