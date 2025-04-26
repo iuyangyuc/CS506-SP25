@@ -4,6 +4,14 @@ import os
 
 # Function to read data from multiple CSV files
 def read_data(folder_path, file_name, years, encoding, target_col, drop_col) -> pd.DataFrame:
+    """
+    folder_path: str: Path to the folder containing the CSV files.
+    file_name: str: Base name of the CSV files (without year).
+    years: list: List of years to read data from.
+    encoding: str: Encoding of the CSV files.
+    target_col: list: List of columns to clean.
+    drop_col: list: List of columns to drop.
+    """
     file_paths = [os.path.join(folder_path, f"{year}_{file_name}") for year in years]
     dfs = []
 
