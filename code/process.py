@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 # Function to read data from multiple CSV files
-def read_data(folder_path, file_name, years, encoding, target_col, drop_col) -> pd.DataFrame:
+def read_data(folder_path, file_name, years, encoding, target_col, drop_col, file_type) -> pd.DataFrame:
     """
     folder_path: str: Path to the folder containing the CSV files.
     file_name: str: Base name of the CSV files (without year).
@@ -18,7 +18,10 @@ def read_data(folder_path, file_name, years, encoding, target_col, drop_col) -> 
     for year, path in zip(years, file_paths):
         if os.path.exists(path):
             try:
-                df = pd.read_csv(path, encoding=encoding)
+                if file_type == 'csv':
+                    df = pd.read_csv(path, encoding=encoding)
+                elif file_type == 'xlsx':
+                    df = pd.read_excel(path)
                 df['YEAR'] = year
                 print("Read data from:", path)
 
@@ -50,3 +53,44 @@ def clean_currency(val):
             return None
         return float(val)
     return val
+
+
+def correct_hours_worked(val):
+    """
+    Correct 'Hours Worked' smartly for float64 columns:
+    - If the float is between 0 and 24, assume it's real hours.
+    - If it's a 4-digit number (e.g., 630.0), treat as HHMM format.
+    """
+    if pd.isna(val):
+        return None
+    try:
+        val_int = int(val)  
+        if 0 <= val < 24:
+            return float(val)
+        elif 100 <= val_int <= 2400:
+            hours = val_int // 100
+            minutes = val_int % 100
+            return hours + minutes / 60
+        else:
+            return None
+    except:
+        return None
+
+
+
+def process_hours_columns(dfs, hours_worked_col="Hours Worked"):
+    """
+    Process a list of DataFrames to fix 'Hours Worked' and 'Hours Paid' columns.
+
+    """
+    processed_dfs = []
+
+    for df in dfs:
+        # Convert 'Hours Worked' if the column exists
+        if hours_worked_col in df.columns:
+            df[hours_worked_col] = df[hours_worked_col].apply(correct_hours_worked)
+        
+        
+        processed_dfs.append(df)
+
+    return processed_dfs
