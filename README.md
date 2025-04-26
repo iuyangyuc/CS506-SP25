@@ -1,13 +1,51 @@
-# Midterm Report
+# Final Report
 
-> Midterm Presentation Link: https://youtu.be/LUZrgBl8O8Y
+> Final Presentation Link: 
 
 ## Install Dependencies
 
 ```
+# Terminal
 pip install -r requirements.txt
+
+# MacOS
+chmod +x install.sh
+./install.sh
+
+# Windows
+# double click install.bat
 ```
 
+## Project Structure
+
+```
+CS506-SP25/
+│
+├── README.md               
+├── requirements.txt        
+│
+├── code/       
+│   ├── q1.ipynb	# ipynb files run all the visualizations for specific questions
+│   ├── q2_4.ipynb
+│   ├── q3_5.ipynb
+│   ├── q6_7.ipynb
+│   ├── process.py	# store functions to preprocess data
+│   ├── regression.py	# store functions for machine learning
+│
+├── data/       
+│   ├── Overtime/
+│   ├── budget/
+│   ├── earning/
+```
+
+We organized all data visualization functions and analysis code into separate Jupyter Notebook files corresponding to each specific question. To improve code reusability and maintainability, we encapsulated all common data loading and preprocessing routines into standalone Python modules, which are imported and reused across different notebooks.
+
+## How To Run
+
+```
+cd code
+# Run All Cells In Notebooks: Kernel -> Restart & Run All
+```
 
 ## **Project Description**
 
@@ -45,7 +83,9 @@ Handle outliers by replacing them with the mean or mode, perform data type conve
 
 ## **Data Visualization:**
 
-**Tools**: Matplotlib, Seaborn
+*Please run the notebooks to reproduce the visualizations and interact with some interactive plots.*
+
+**Tools**: Matplotlib, Seaborn, Plotly
 
 1. **Line plot**: We used line plots to visualize the change of BPD paycheck and changes of ratios of overtime paid hours. (See the section below for details).
 
@@ -64,7 +104,7 @@ Handle outliers by replacing them with the mean or mode, perform data type conve
 
 
 ## **Result**
-1. **How has the BPD budget changed year-over-year?** 
+### 1. How has the BPD budget changed year-over-year?
 #### Assumptions
 
 1. Budget Categories Are Consistent:
@@ -111,7 +151,7 @@ Based on the data, the number of extremely high injury compensation cases decrea
 * The BPD's overtime costs are steadily rising. The high-risk nature of police work contributes to relatively high salaries and overtime pay, which significantly impacts overall expenditures, especially during periods of [economic constraint](https://www.baystatebanner.com/2024/09/19/boston-police-to-reach-record-breaking-100-million-overtime-budget/).
 * The wage increase for injured workers may be due to increased compensation amounts resulting from rising workplace [health and safety standards](https://www.bostonglobe.com/metro/2016/07/04/boston-police-officers-injured-duty-collect-big-paychecks/BF6J6tyHgCPPY6nYcWkFbJ/story.html).
 
-2. **How have BPD paychecks changed year-over-year? Both the average amount, as compared with non-BPD Boston city.**
+### 2. How have BPD paychecks changed year-over-year? Both the average amount, as compared with non-BPD Boston city.
 
 #### Assumptions
 
@@ -129,8 +169,8 @@ This chart shows that all non-BPD departments except Boston Fire Department (BPD
 * BPD is a strong second, with a sharp spike in 2024. Despite this surge, BPD still remains second to BFD in 2024, but the gap narrows significantly.
 * In 2024, both BPD and BFD experienced substantial spikes in average gross pay, likely due to a combination of new collective bargaining agreements, increased overtime from high-profile events (e.g., the Emerson College protests), and retroactive pay. For BPD, this [retroactive compensation](https://www.wbur.org/news/2025/03/12/boston-police-salaries-city-employee#:~:text=In%20Boston%2C%20the,2024%27s%20pay) stemmed from a newly ratified five-year contract that covered wages dating back to 2020, while BFD’s increase followed a similar contract adjustment retroactive to 2021. These factors collectively contributed to sharp year-over-year earnings growth, particularly among frontline public safety personnel.
 
-3. **Given previous overtime data, predict the amount of overtime paid for the next year. How does this compare with the budget allocation for the BPD?**
-   
+### 3. Given previous overtime data, predict the amount of overtime paid for the next year. How does this compare with the budget allocation for the BPD?
+
 #### Assumptions
 ##### Year 2016
 The timing of the FY2016 reduction strongly suggests a link to actions taken by the City in response to the FY2015 overspending crisis. Sources explicitly state that after the FY2015 peak, "the City implemented initiatives to control public safety overtime spending, with focus on Police". While the specific details of these initiatives implemented between FY2015 and FY2016 remain unclear , the stated intent was to rein in costs.   
@@ -151,7 +191,7 @@ Despite this substantial budget reduction, the department's actual overtime spen
 
 ![7](./img/7.png)
 
-4. **How much BPD officer pay came from injury pay? What percentage of officers took injury pay in a given year?**  
+### 4. How much BPD officer pay came from injury pay? What percentage of officers took injury pay in a given year?
 
 #### Assumptions
 
@@ -176,9 +216,9 @@ The charts show the percentage of total gross pay that came from injury compensa
 
 These observations suggest that surges in injury rates may be closely tied to periods of civil unrest and intense policing demands.
 
-5. **How do overtime hours paid compare to overtime hours worked? What does the discrepancy financially amount to, year after year?
-    
-6. **Are certain officers (e.g., white, old, male, long tenure, high ranking title) more likely than others to have lower worked-to-paid ratios?** 
+### 5. How do overtime hours paid compare to overtime hours worked? What does the discrepancy financially amount to, year after year?
+
+### 6. Are certain officers (e.g., white, old, male, long tenure, high ranking title) more likely than others to have lower worked-to-paid ratios?
 
 #### Assumptions
 
@@ -198,7 +238,7 @@ The data suggests a clear trend: higher-ranking officers tend to have lower work
 
 In conclusion, officers with higher-ranking titles appear more likely to receive overtime pay disproportionate to their reported work hours, highlighting potential disparities in how overtime is allocated or documented across ranks.
 
-7. **What is the distribution of ratios of overtime worked vs. overtime paid? Are there any outliers? (Hours Worked/WRKDHRS vs Hours Paid/OTHOURS in the court OT database).**
+### 7. **What is the distribution of ratios of overtime worked vs. overtime paid? Are there any outliers? (Hours Worked/WRKDHRS vs Hours Paid/OTHOURS in the court OT database).**
 
 #### Assumptions
 
@@ -223,8 +263,8 @@ In conclusion, officers with higher-ranking titles appear more likely to receive
 ![13](./img/13.png)
 
 
-### Further Questoin:
-1.  **Are there systemic inequalities ingrained in the policing system?**
+## Further Question:
+### 1.  Are there systemic inequalities ingrained in the policing system?
 For this problem, we're starting with postal codes to explore whether overtime pay is fair across different regions. Our plan is to analyze the ratio of overtime pay to total earnings. Below is the distribution of this ratio across different regions:
 
 ![17](./img/17.png)
