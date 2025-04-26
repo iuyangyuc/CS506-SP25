@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 # Function to read data from multiple CSV files
-def read_data(folder_path, file_name, years, encoding, target_col, drop_col, file_type) -> pd.DataFrame:
+def read_data(folder_path, file_name, years, encoding, target_col, drop_col, file_type='csv') -> pd.DataFrame:
     """
     folder_path: str: Path to the folder containing the CSV files.
     file_name: str: Base name of the CSV files (without year).
