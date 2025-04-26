@@ -5,7 +5,15 @@
 ## Install Dependencies
 
 ```
+# Terminal
 pip install -r requirements.txt
+
+# MacOS
+chmod +x install.sh
+./install.sh
+
+# Windows
+# double click install.bat
 ```
 
 ## Project Structure
