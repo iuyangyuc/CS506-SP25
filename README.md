@@ -63,7 +63,7 @@ Handle outliers by replacing them with the mean or mode, perform data type conve
     It is also used to visualize the earnings differences between ranks within the same department.(See the section below for details)
 
 
-## **Preliminary Result**
+## **Result**
 1. **How has the BPD budget changed year-over-year?** 
 #### Assumptions
 
@@ -176,9 +176,8 @@ The charts show the percentage of total gross pay that came from injury compensa
 
 These observations suggest that surges in injury rates may be closely tied to periods of civil unrest and intense policing demands.
 
-5. **How do overtime hours paid compare to overtime hours worked? What does the discrepancy financially amount to, year after year?**
-    Due to lack of gender or race information, this question is postponed.
-
+5. **How do overtime hours paid compare to overtime hours worked? What does the discrepancy financially amount to, year after year?
+    
 6. **Are certain officers (e.g., white, old, male, long tenure, high ranking title) more likely than others to have lower worked-to-paid ratios?** 
 
 #### Assumptions
