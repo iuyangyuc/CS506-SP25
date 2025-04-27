@@ -68,11 +68,11 @@ chmod +x install.sh
 # The results of running script are in ./output folder
 ```
 
-## **Project Description**
+## Project Description
 
 The project aims to conduct a thorough analysis of the Boston Police Department (BPD)’s budget. Given the significant operating budget of over $4.6 billion allocated to the BPD, understanding how funds are spent, particularly in the context of overtime, is crucial for ensuring accountability and transparency. The project will involve cleaning, analyzing, and visualizing overtime data to answer key questions regarding shifts in budget, patterns in overtime pay, and potential inequities within the department.
 
-## **Clear Goals**
+## Clear Goals
 1. Analyze how the BPD budget has changed in 2011-2024, and identify trends in funding growth or shrinkage across departments.
 2. Analyze patterns in overtime pay, comparing it to regular pay and against non-BPD city employees.
 3. Use previous overtime data in 2011-2024 to predict overtime pay for the upcoming year, and compare it to the allocated budget.
@@ -81,7 +81,7 @@ The project aims to conduct a thorough analysis of the Boston Police Department 
 6. Determine whether specific demographics (e.g., senior, male, high-ranking, long-tenured officers) are more likely to have lower worked-to-paid overtime ratios.
 7. Analyze the distribution of overtime worked versus paid ratios and identify outliers.
 
-## **Dataset Collection**
+## Dataset Collection
 The following datasets are collected and utilized:
 
 **Earnings**: Employee Earnings Report dataset (2011-2024). Each year, the City of Boston publishes payroll data for employees. This dataset contains employee names, department names, job details, and earnings information including base salary, overtime, and total earnings, etc.
@@ -90,10 +90,10 @@ The following datasets are collected and utilized:
 
 **Overtime**:Overtime dataset(2012-2020). This dataset contains employee rank, employee hours worked,  employee hours paid and etc.
 
-## **Data Modeling:**
+## Data Modeling:
 Linear model: Using the scikit-learn library, a linear model was developed to forecast overtime pay trends across various departments. Despite the model's current simplicity, it is projected that overtime pay will continue to increase.
 
-## **Data Processing:**
+## Data Processing
 **Tools**: Pandas, Re, Numpy
 
 For the Earning dataset in the CSV file, many data fields need to be standardized. For example, remove the dollar sign ($) from salary values, unify the representation of missing values in the table, and use Pandas for format conversion, such as applying regular expressions for batch processing. 
@@ -124,7 +124,7 @@ Handle outliers by replacing them with the mean or mode, perform data type conve
     It is also used to visualize the earnings differences between ranks within the same department.(See the section below for details)
 
 
-## **Result**
+## Analysis Result
 ### 1. How has the BPD budget changed year-over-year?
 #### Assumptions
 
