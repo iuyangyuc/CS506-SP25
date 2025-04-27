@@ -61,6 +61,8 @@ cd code
 
 # Windows
 #Double click run.bat
+
+# The results of running script are in ./output folder
 ```
 
 ## **Project Description**
