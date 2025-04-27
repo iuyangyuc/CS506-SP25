@@ -197,16 +197,16 @@ This chart shows that all non-BPD departments except Boston Fire Department (BPD
 * The COVID-19 pandemic significantly influenced BPD operations and overtime throughout FY2021, both reducing traditional overtime needs and creating new pandemic-related ones.
 
 ##### FY2016
-* Data indicates a reduction in actual BPD overtime spending between FY2015 and FY2016. Expenditures decreased by $2.4 million (4%), falling from $59.9 million to $57.5 million.
-This decrease followed FY2015, a year marked by exceptionally high overtime overspending where the department exceeded its budget by $24.9 million (70.9%), the largest deficit in a decade.
-Consequently, the $57.5 million spent in FY2016, though lower than the previous year's peak, was still substantial. Given the historical pattern of overspending, it is highly probable that this amount exceeded the specific budget allocated for FY2016 (the exact FY2016 budget figure and deficit are not provided in the source material).
+* Data indicates a reduction in actual BPD overtime spending between FY2015 and FY2016. Expenditures decreased by \$2.4 million (4%), falling from \$59.9 million to \$57.5 million.
+This decrease followed FY2015, a year marked by exceptionally high overtime overspending where the department exceeded its budget by \$24.9 million (70.9%), the largest deficit in a decade.
+Consequently, the \$57.5 million spent in FY2016, though lower than the previous year's peak, was still substantial. Given the historical pattern of overspending, it is highly probable that this amount exceeded the specific budget allocated for FY2016 (the exact FY2016 budget figure and deficit are not provided in the source material).
 The reduction in FY2016 appears to represent a partial pullback from an extreme outlier year due to increased scrutiny, rather than a sustainable shift towards meeting budgeted spending levels.
 
 ##### FY2021:
 
 * Despite a significant reduction in the overtime budget for FY2021, the department's actual overtime spending, while lower than the previous year, far exceeded this new budget target.
-* Actual overtime expenditures in FY2021 decreased by approximately $6.48 million compared to the $74 million spent in FY2020, resulting in actual FY2021 spending of around $67.5 million. Some sources report total incurred overtime was slightly higher, exceeding $68.2 million.
- 
+* Actual overtime expenditures in FY2021 decreased by approximately \$6.48 million compared to the \$74 million spent in FY2020, resulting in actual FY2021 spending of around \$67.5 million. Some sources report total incurred overtime was slightly higher, exceeding \$68.2 million.
+
 
 
 ![7](./img/7.png)
