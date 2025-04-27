@@ -24,6 +24,11 @@ CS506-SP25/
 ├── README.md               
 ├── requirements.txt        
 │
+├── install.bat	# install dependency scripts for windows
+├── install.sh	# install dependency scripts for mac
+├── run.bat	#  run scripts for windows
+├── run.sh	#  run scripts for mac
+│
 ├── code/       
 │   ├── q1.ipynb	# ipynb files run all the visualizations for specific questions
 │   ├── q2_4.ipynb
@@ -31,6 +36,10 @@ CS506-SP25/
 │   ├── q6_7.ipynb
 │   ├── process.py	# store functions to preprocess data
 │   ├── regression.py	# store functions for machine learning
+│
+├── test/       
+│   ├── test_currency.py
+│   ├── test_hour.py
 │
 ├── data/       
 │   ├── Overtime/
