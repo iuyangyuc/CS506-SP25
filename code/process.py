@@ -81,7 +81,6 @@ def correct_hours_worked(val):
 def process_hours_columns(dfs, hours_worked_col="Hours Worked"):
     """
     Process a list of DataFrames to fix 'Hours Worked' and 'Hours Paid' columns.
-
     """
     processed_dfs = []
 
