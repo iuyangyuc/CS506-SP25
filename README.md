@@ -321,9 +321,9 @@ From the distribution, we observe substantial variation across areas:
 - Some locations exhibit significantly higher overtime ratios (closer to 0.8), indicating a tighter correspondence between hours worked and overtime compensated. Other locations (less than 0.4) show noticeably lower ratios, suggesting discrepancies between actual working hours and overtime payment.
 - The clear gradient in the chart suggests that the overtime compensation practices are not uniform across locations. Instead, there appear to be systematic regional differences in how overtime hours are credited relative to actual work performed.
 
-### 2.  Are there systemic inequalities ingrained in the policing system?
+### 2.  Predict the ratio for 2026(Worked/ Paid Ratio)
 #### Assumptions
-![18](./img/19.png)
+![21](./img/21.png)
 1. The Worked/ Paid Ratio data from 2012 to 2020 is used as the training dataset.
 2. For each year, 500 samples are randomly selected to ensure a manageable sample size and reduce the potential for overfitting.
 3. It is assumed that the relationship between YEAR and Ratio follows a second-degree polynomial trend.
