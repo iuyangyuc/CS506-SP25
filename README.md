@@ -54,9 +54,12 @@ We organized all data visualization functions and analysis code into separate Ju
 ```
 cd code
 # Run All Cells In Notebooks: Kernel -> Restart & Run All
-# If you have jupyter in your environment, you can run the following scripts to run notebooks automatically and save the outputs to ./output
+# If you have jupyter in your environment, then you can run the following scripts to run notebooks automatically and save the outputs to ./output
+# If you do not have high jupyter version in your environment, please run the notebooks by yourself.
+# We highly recommend using MacOS for running scripts
 
 # MacOS
+chmod +x install.sh
 ./run.sh
 
 # Windows
