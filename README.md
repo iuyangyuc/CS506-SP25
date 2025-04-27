@@ -188,21 +188,25 @@ This chart shows that all non-BPD departments except Boston Fire Department (BPD
 ### 3. Given previous overtime data, predict the amount of overtime paid for the next year. How does this compare with the budget allocation for the BPD?
 
 #### Assumptions
-##### Year 2016
-The timing of the FY2016 reduction strongly suggests a link to actions taken by the City in response to the FY2015 overspending crisis. Sources explicitly state that after the FY2015 peak, "the City implemented initiatives to control public safety overtime spending, with focus on Police". While the specific details of these initiatives implemented between FY2015 and FY2016 remain unclear , the stated intent was to rein in costs.   
-
-##### Year 2021
-The COVID-19 pandemic exerted a complex and significant influence on BPD operations and overtime throughout FY2021. Its effects were twofold, simultaneously reducing some traditional overtime needs while creating new ones:
+* Data for over time payment are gathered from overtime databased. 
+* Department summary are caluated to decided the top 5 department 
 
 #### Observations
-##### Year 2016
-The data clearly shows a reduction in actual BPD overtime spending between FY2015 and FY2016. Expenditures fell by 4%, a decrease of $2.4 million, from $59.9 million in FY2015 to $57.5 million in FY2016.   
 
-This decrease, however, must be viewed against the backdrop of FY2015, which represented a high-water mark for overtime overspending. In that year, the department exceeded its overtime budget by $24.9 million, a staggering 70.9% above the allocated amount – the largest such deficit in a decade. Therefore, the $57.5 million spent in FY2016, while lower than the previous year, was still a substantial absolute figure. Given the chronic pattern of overspending established in Section I, it is highly probable that this $57.5 million still exceeded the amount budgeted specifically for FY2016, even though the exact budget figure and deficit for that year are not explicitly provided in the available materials.   
+* The timing of the FY2016 overtime reduction suggests a connection to City actions taken in response to the FY2015 overspending crisis, specifically initiatives aimed at controlling Police overtime.
+* The COVID-19 pandemic significantly influenced BPD operations and overtime throughout FY2021, both reducing traditional overtime needs and creating new pandemic-related ones.
 
-The nature of the FY2016 reduction, therefore, appears to be more of a partial regression from an extreme outlier year than a fundamental shift towards achieving sustainable, budgeted spending levels. It represented a moderation following intense pressure, rather than the establishment of effective long-term cost control.
-##### Year 2021
-Despite this substantial budget reduction, the department's actual overtime spending, while lower than the previous year, far exceeded the new target. Data indicates that actual overtime expenditures in FY2021 decreased by $6.48 million compared to the $74 million spent in FY2020. This implies actual FY2021 spending was approximately $67.5 million. However, other sources report total incurred overtime in FY2021 was over $68.2 million.  
+##### FY2016
+* Data indicates a reduction in actual BPD overtime spending between FY2015 and FY2016. Expenditures decreased by $2.4 million (4%), falling from $59.9 million to $57.5 million.
+This decrease followed FY2015, a year marked by exceptionally high overtime overspending where the department exceeded its budget by $24.9 million (70.9%), the largest deficit in a decade.
+Consequently, the $57.5 million spent in FY2016, though lower than the previous year's peak, was still substantial. Given the historical pattern of overspending, it is highly probable that this amount exceeded the specific budget allocated for FY2016 (the exact FY2016 budget figure and deficit are not provided in the source material).
+The reduction in FY2016 appears to represent a partial pullback from an extreme outlier year due to increased scrutiny, rather than a sustainable shift towards meeting budgeted spending levels.
+
+##### FY2021:
+
+* Despite a significant reduction in the overtime budget for FY2021, the department's actual overtime spending, while lower than the previous year, far exceeded this new budget target.
+* Actual overtime expenditures in FY2021 decreased by approximately $6.48 million compared to the $74 million spent in FY2020, resulting in actual FY2021 spending of around $67.5 million. Some sources report total incurred overtime was slightly higher, exceeding $68.2 million.
+ 
 
 
 ![7](./img/7.png)
@@ -233,6 +237,17 @@ The charts show the percentage of total gross pay that came from injury compensa
 These observations suggest that surges in injury rates may be closely tied to periods of civil unrest and intense policing demands.
 
 ### 5. How do overtime hours paid compare to overtime hours worked? What does the discrepancy financially amount to, year after year?
+
+#### Assumptions
+* Overtime is gathered form overtime dataset. 
+* Calculated by subtracted 8 from total hours worked.
+
+#### Observations
+* Fiscal Year 2020 (FY20): The BPD was budgeted $60.8 million for overtime but ultimately spent $74.7 million, exceeding the allocation by $13.9 million or 23%.14  This overspending occurred despite the cancellation of many large public events due to the COVID-19 pandemic, which might have been expected to reduce overtime needs.10
+* Fiscal Year 2021 (FY21): Amid calls for police reform, the City reallocated funds, resulting in a nominal overtime budget "cut" from $60 million to $48 million.5  However, projections early in the fiscal year indicated spending was on track to significantly exceed this reduced budget.5  Actual incurred overtime spending for FY21 totaled $68.2 million, surpassing the budget by $19.4 million.
+
+
+![8](./img/19.png)
 
 ### 6. Are certain officers (e.g., white, old, male, long tenure, high ranking title) more likely than others to have lower worked-to-paid ratios?
 
