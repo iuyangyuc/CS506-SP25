@@ -326,7 +326,7 @@ From the distribution, we observe substantial variation across areas:
 ![21](./img/21.png)
 1. The Worked/ Paid Ratio data from 2012 to 2020 is used as the training dataset.
 2. For each year, 500 samples are randomly selected to ensure a manageable sample size and reduce the potential for overfitting.
-3. It is assumed that the relationship between YEAR and Ratio follows a second-degree polynomial trend.
+3. It is assumed that the relationship between YEAR and Ratio follows a second-degree polynomial trend, We use polynomial regression with degree 2 to model the trend of the Worked/Paid Ratio over time, allowing us to capture potential non-linear changes in the ratio rather than assuming a strictly linear relationship.
 
 
 #### Observations
