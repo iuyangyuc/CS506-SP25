@@ -268,7 +268,7 @@ These observations suggest that surges in injury rates may be closely tied to pe
 #### Observations
 
 The data suggests a slight trend: higher-ranking officers tend to have lower worked-to-paid overtime ratios. In other words, they are typically paid for significantly more overtime hours than they report working.
-- As shown in the chart, officers with higher ranks (e.g., 19) have the lowest average ratios, while those with lower ranks (e.g., 1 and 2) show higher ratios, indicating that their reported worked hours are more closely aligned with the overtime hours paid.
+- As shown in the chart, officers with higher ranks (e.g., 8 and 9) have the lowest average ratios, while those with lower ranks (e.g., 2) show higher ratios, indicating that their reported worked hours are more closely aligned with the overtime hours paid.
 
 - One possible reason for this discrepancy is that higher-ranking officers may have more discretion or administrative authority in approving overtime, which could lead to less standardized documentation of their actual work hours.
 
