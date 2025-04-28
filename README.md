@@ -295,7 +295,7 @@ In conclusion, officers with higher-ranking titles appear more likely to receive
 - It’s also possible that opportunities for reporting overtime changed, or that some officers received overtime compensation without actually working additional hours — for example, through special allowances or standby duty. From the [Local news](https://baystatebanner.com/2021/05/05/councilors-struggle-to-rein-in-police-overtime/), this article provides concrete evidence that the drop in the overtime “worked hours/paid hours” ratio in 2020 was likely influenced by structural compensation rules, civil unrest, and pandemic disruptions — all of which inflated paid hours without necessarily increasing actual work time.
 
 - For the question of are there any outliers, since the drop in 2020 is significantly larger than the gradual changes observed in previous years.
-  We draw the box plot of 2020 data and set the threshold to 0.25, as we believe extremely low ratio values may be skewing the mean distribution in 2020. ![12](./img/12.png) The outliers are shown in the following figure, which are lower than 0.1.
+  We draw the box plot of 2020 data and set the threshold to 0.25, as we believe extremely low ratio values may be skewing the mean distribution in 2020. ![12](./img/12.png) The outliers are shown in the following figure, which are lower than or equal to 0.25.
 
 ![13](./img/13.png)
 
